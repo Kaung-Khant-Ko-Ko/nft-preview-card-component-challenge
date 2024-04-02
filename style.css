@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.card {
+  width: 350px;
+  height: 600px;
+  background-color: hsl(216, 50%, 16%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.content {
+  width: 300px;
+  height: 540px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eth_img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0px;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.eth_info {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eth_icon {
+  width: 11px;
+  height: 18px;
+}
+
+.eth {
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+}
+
+.cl_icon {
+  width: 17px;
+  height: 17px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creator_info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cr_img {
+  width: 33px;
+  height: 33px;
+}
+
+.cr_name {
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
