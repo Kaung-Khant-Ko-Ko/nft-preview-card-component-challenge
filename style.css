@@ -68,6 +68,7 @@ p {
   width: 175px;
   font-size: 21px;
   font-weight: 600;
+  color: hsl(0, 0%, 100%);
 }
 
 .title:hover {
